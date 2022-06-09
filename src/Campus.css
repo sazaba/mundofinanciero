@@ -1,0 +1,47 @@
+.campus{
+    font-family: 'Poppins', sans-serif;
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+}
+.campus h1{
+    font-size: 32px;
+    padding-top: 150px;
+}
+.campus p{
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    color: gray;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    background: #fff3f3;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+.campus-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.campus-col h4{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.campus-col p{
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}

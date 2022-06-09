@@ -1,0 +1,64 @@
+.footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+.footer img{
+    width: 50px;
+    margin: 20px;
+}
+.footer .social__media{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer .whatsapp {
+    color: #25D366;
+}
+
+.footer .whatsapp:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.footer .instagram{
+    color: #F58529;
+}
+
+.footer .instagram:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.footer .facebook{
+    color: #3b5998;
+}
+.footer .facebook:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.footer .youtube{
+    color: #c4302b;
+}
+.footer .youtube:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+@media(max-width: 750px){
+    .footer p{
+        font-size: 10px;
+    }
+}
+

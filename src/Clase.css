@@ -1,0 +1,37 @@
+.clases{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.clases h1{
+    font-size: 32px;
+    padding-top: 150px;
+    
+}
+.clases p{
+    font-size: 14px;
+    margin-bottom: 5%;
+    font-weight: 300;
+    color: gray;
+    text-align: center;}
+    
+
+.clases-col{
+    flex-basis: 30%;
+    position: relative;  
+    margin-bottom: 5%;
+    text-align: left;
+}
+.clases-col img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.clases-col h3{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    text-align: center;
+}
