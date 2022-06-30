@@ -44,11 +44,13 @@
     font-weight: 300;
     font-size: 14px;
     color: gray;
+    margin-bottom: 30px;
 }
 
 .hero-btn2{
     color: black;
     text-decoration: none;
+    text-align: center;
     font-size: 15px;
     font-weight: 300;
     border: 1px solid black;
@@ -75,6 +77,9 @@
 }
 
 @media(max-width:700px){
+    .campus{
+        margin-top: -70px;
+    }
     .row{
         flex-direction: column;
     }
@@ -84,9 +89,19 @@
         left: 0;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
-        min-height: 120px;
+        min-height: 80px;
+       
+    }
+    .hero-btn2{
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        background: #3b5998;
+        color: white;
     }
     
     

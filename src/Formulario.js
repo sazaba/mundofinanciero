@@ -68,7 +68,7 @@ const errorForm=()=>{
     return (
     <div className='formulario'>
       <Link to='/'>
-      <img className='logoFormulario' src={logo}/>      
+      <img className='logoFormulario' src='https://i.postimg.cc/7ZsFkddC/logofinanciero.png'/>      
       </Link>
       
         <h1>Consulta tu Estado de Credito</h1>

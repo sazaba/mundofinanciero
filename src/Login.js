@@ -48,10 +48,10 @@ function Login() {
     <div className='login'>
     <div className='inputBox'>
         <h3>Iniciar Sesion</h3>
-        <input id='inputUser' className='inputLogin' placeholder='Usuario' onChange={(event) => {
+        <input id='inputUser' className='inputLogin' placeholder='Usuario' type='email' onChange={(event) => {
             setLoginEmail(event.target.value);
         }}/>
-        <input id='inputPass' className='inputLogin' placeholder='Contraseña' onChange={(event) => {
+        <input id='inputPass' className='inputLogin' placeholder='Contraseña' type='password' onChange={(event) => {
             setLoginPassword(event.target.value);
         }}/>
         <br/>

@@ -8,7 +8,7 @@ function Cities() {
   return (
     <div className='cities'>
        
-        <h1>Ciudades en las que tenemos coberturas</h1>
+        <h1>Ciudades de Cobertura</h1>
         <p>Mundo financiero tiene presencia en distintas ciudades donde brindamos asesorias y servicios financieros para los Colombianos.</p>
         <div className="row">
             <div className="cities-col">

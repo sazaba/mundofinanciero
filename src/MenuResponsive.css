@@ -7,18 +7,17 @@
         display: flex;
         flex-direction: column;
         min-height:100vh;
-        background:#3b5998;
+        background: url('https://i.postimg.cc/vBTnggZ8/chase-emmons-Z-blv-V8g6j8-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         align-items: center;
-        justify-content: space-between;
-        padding: 20%;
+        justify-content: center;
         overflow: hidden;
         box-sizing: border-box;
     }
     .menuResponsive span{
         
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 300;
         color: white;
         font-family: 'League Gothic', sans-serif;
@@ -33,6 +32,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 40px;
 
     }
     .menuResponsive a{

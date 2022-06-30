@@ -13,3 +13,11 @@ export const Scroll2 =[
         url: '#about'
     }
 ]
+
+export const Scroll3 =[
+    {
+        id:3,
+        text: 'Convenios',
+        url: '#convenios'
+    }
+]

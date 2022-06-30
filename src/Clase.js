@@ -13,7 +13,7 @@ function Clase({id, icon}) {
             {icon}            
             </Link>
         </div>        
-        <h1>Acerca de nosotros</h1>
+        <h1>Acerca de Nosotros</h1>
     <p>Trabajamos dia a dia para brindar soluciones financieras a los Colombianos</p>
     <div class="row">
         <div class="clases-col">

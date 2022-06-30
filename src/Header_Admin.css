@@ -154,6 +154,17 @@
         transition: 0.3s;   
     }
     .button-19{
-       margin-left: 30px;
+       margin-left: 0px;
+       position: absolute;
+       left: 0;
+       bottom: 0;
+       width: 50px;
+       border-radius: 3px;
+       font-size: 10px;
+       padding: 5px 10px;
+       height: auto;
+       /* background: black;
+       color: white; */
+       font-weight: 600;
     }
 }

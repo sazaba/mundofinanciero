@@ -10,7 +10,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Footer() {
   return (
     <div className='footer'>
-        <img src={logo} />
+        <img src='https://i.postimg.cc/j5sP43qX/logonegro.png' />
         <div className='social__media'>
           <a href='https://wa.link/qcv7zj'><WhatsAppIcon className='whatsapp' sx={{ fontSize: 30, margin: '10px' }}/></a>
           <a href='https://www.instagram.com/mundofinancierocol/'><InstagramIcon className='instagram' sx={{ fontSize: 30, margin: '10px' }}/></a>         

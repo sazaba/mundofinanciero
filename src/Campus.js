@@ -13,7 +13,7 @@ function Campus({id, icon}) {
             </Link>
             
         </div> 
-        <h1>Servicios financieros</h1>
+        <h1>Servicios Financieros</h1>
         <p>Tenemos las mejores opciones que se adaptan a tu perfil, cuentanos que necesitas.</p>
         <div className="row">    
             <div className="campus-col">

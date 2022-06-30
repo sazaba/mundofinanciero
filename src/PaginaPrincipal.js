@@ -7,6 +7,7 @@ import Header from './Header'
 import Home from './Home'
 import Testimonials from './Testimonials'
 import './PaginaPrincipal.css'
+import Convenios from './Convenios'
 
 
 function PaginaPrincipal() {
@@ -16,6 +17,7 @@ function PaginaPrincipal() {
         <Header/>
         <Home/>
         <Campus id = 'creditos'/>
+        <Convenios id = 'convenios'/>
         <Cities/>
         <Clase id = 'about'/>
         <Testimonials/>
