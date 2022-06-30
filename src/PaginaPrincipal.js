@@ -6,15 +6,18 @@ import Footer from './Footer'
 import Header from './Header'
 import Home from './Home'
 import Testimonials from './Testimonials'
+import './PaginaPrincipal.css'
+
 
 function PaginaPrincipal() {
+  
   return (
     <div>
         <Header/>
         <Home/>
-        <Campus/>
+        <Campus id = 'creditos'/>
         <Cities/>
-        <Clase/>
+        <Clase id = 'about'/>
         <Testimonials/>
         <Footer/>
     </div>

@@ -20,6 +20,7 @@
 }
 
 .testimonial-col{
+    position: relative;
     flex-basis: 45%;
     background: #fff3f3;
     width: 100%;
@@ -29,14 +30,23 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
+    padding-top: 60px;
     margin-top: 3%;
     box-sizing: border-box;
 }
 .testimonial-col img{
+    box-sizing: border-box;
+    object-fit: cover;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 3%;  
+    position: absolute;
+    margin: auto;
+    bottom: 80;
+    left: 0;
+    right: 0;
+    top: 10px;    
 }
 .tst .fa{
     color: rgb(255, 87, 45);

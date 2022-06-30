@@ -1,11 +1,13 @@
 {
-  "name": "mundofinanciero",
-  "version": "0.1.0",
+  "name": "hostinger-react",
+  "homepage": "http://mundofinanciero.com.co",
+  "version": "1.0.0",
+  "description": "my react application",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@mui/icons-material": "^5.8.3",
+    "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -16,6 +18,8 @@
     "react-hook-form": "^7.31.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.19",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

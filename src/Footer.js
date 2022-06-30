@@ -13,9 +13,9 @@ function Footer() {
         <img src={logo} />
         <div className='social__media'>
           <a href='https://wa.link/qcv7zj'><WhatsAppIcon className='whatsapp' sx={{ fontSize: 30, margin: '10px' }}/></a>
-          <a href='#'><InstagramIcon className='instagram' sx={{ fontSize: 30, margin: '10px' }}/></a>         
-          <a href='#'><FacebookIcon className='facebook' sx={{ fontSize: 30, margin: '10px' }}/></a>
-          <a href='#'><YouTubeIcon className='youtube' sx={{ fontSize: 30, margin: '10px' }}/></a>
+          <a href='https://www.instagram.com/mundofinancierocol/'><InstagramIcon className='instagram' sx={{ fontSize: 30, margin: '10px' }}/></a>         
+          <a href='https://www.facebook.com/Mundo-Financiero-Col-103247595756799'><FacebookIcon className='facebook' sx={{ fontSize: 30, margin: '10px' }}/></a>
+          {/* <a href='#'><YouTubeIcon className='youtube' sx={{ fontSize: 30, margin: '10px' }}/></a> */}
           
         </div>
         <p>Todos los derechos reservados© | Mundo Financiero</p>

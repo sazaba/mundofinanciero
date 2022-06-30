@@ -1,21 +1,20 @@
 import React from 'react'
 import './Testimonials.css'
-import man from './Images/Testimonials/julian-wan-WNoLnJo7tS8-unsplash.jpg'
-import woman from './Images/Testimonials/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg'
+
 
 
 
 function Testimonials() {
   return (
     <div className='testimonials'>
-        <h1>Testimonials</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <h1>Testimonios</h1>
+    <p>Mundo financiero presente en la vida de los Colombianos</p>
     <div class="row">
         <div class="testimonial-col">            
-            <img src={man}/>        
+            <img src='https://i.postimg.cc/fTpVhrDH/Santiago.jpg'/>        
             <div class="tst">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae ipsum molestiae non adipisci rem quisquam quibusdam similique blanditiis numquam dolorum corrupti delectus quae vero accusantium unde consectetur, error perspiciatis!</p>
-            <h3>Hera</h3>
+                <p>Con mundo financiero logre organizar mis deudas, hicimos una compra de cartera y asi baje la tasa de interes y quede con cuotas mas bajas, lo cual me permitio quedar con mas dinero al fin del mes</p>
+            <h3>Santiago</h3>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -24,10 +23,10 @@ function Testimonials() {
             </div>
         </div>
         <div class="testimonial-col">                      
-            <img src={woman}/>             
+            <img src='https://i.postimg.cc/Kj9gLcXF/Christian.jpg'/>             
             <div class="tst">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae ipsum molestiae non adipisci rem quisquam quibusdam similique blanditiis numquam dolorum corrupti delectus quae vero accusantium unde consectetur, error perspiciatis!</p>
-                <h3>Juan</h3>
+                <p>Los asesores de Mundo Financiero me ayudaron a salir del reporte que tenia en centrales de riesgo, tiempo despues volvi a tener una vida financiera mas activa con los bancos.</p>
+                <h3>Christian</h3>
                 <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>

@@ -1,33 +1,39 @@
 import React from 'react'
 import './Cities.css'
-import btc from './Images/Cities/art-rachen-yJpjLD3c9bU-unsplash.jpg'
-import eth from './Images/Cities/jievani-weerasinghe-zHI7m_FxpMU-unsplash.jpg'
-import crypto from './Images/Cities/thought-catalog-I0TDRP0fj6Y-unsplash.jpg'
+import { Link } from 'react-router-dom';
+
 
 
 function Cities() {
   return (
     <div className='cities'>
-        <h1>Our Cities</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quia laudantium magnam delectus ratione? Laudantium, fuga distinctio sint excepturi ullam incidunt inventore commodi vitae voluptatibus placeat, quae facilis? Deserunt, dolorem!</p>
+       
+        <h1>Ciudades en las que tenemos coberturas</h1>
+        <p>Mundo financiero tiene presencia en distintas ciudades donde brindamos asesorias y servicios financieros para los Colombianos.</p>
         <div className="row">
             <div className="cities-col">
-                <img src={btc} />
+                <img src='https://i.postimg.cc/4dmPn0HY/Pereira.jpg' />
+                <Link style={{textDecoration:'none'}} to='/formulario'>
                 <div className="layer">
-                    <h3>NEW YORK</h3>
+                    <h3>PEREIRA</h3>
                 </div>
+                </Link>
             </div>
             <div className="cities-col">
-                <img src={btc} />
+                <img src='https://i.postimg.cc/zvyCXHMK/Santa-Rosa.jpg' />
+                <Link style={{textDecoration:'none'}} to='/formulario'>
                 <div className="layer">
-                    <h3>LONDON</h3>
+                    <h3>SANTA ROSA</h3>
                 </div>
+                </Link>
             </div>
             <div className="cities-col">
-                <img src={btc} />
+                <img src='https://i.postimg.cc/tCfrPpN9/Cartago.jpg' />
+                <Link style={{textDecoration:'none'}} to='/formulario'>
                 <div className="layer">
-                    <h3>WASHINGTON</h3>
+                    <h3>CARTAGO</h3>
                 </div>
+                </Link>
             </div>
         </div>
     </div>

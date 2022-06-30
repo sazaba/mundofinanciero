@@ -14,7 +14,7 @@ function Home() {
             </p>
             <Link style={{textDecoration:'none'}} to='/formulario'>
             <div className='hero-btn'>
-                Contáctanos
+                ¡Asesorate!
             </div>
             </Link>
             

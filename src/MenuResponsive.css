@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+.menuResponsive{
+    display: none;
+}
+@media(max-width:750px){
+    .menuResponsive{
+        display: flex;
+        flex-direction: column;
+        min-height:100vh;
+        background:#3b5998;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .menuResponsive span{
+        
+        font-size: 40px;
+        font-weight: 300;
+        color: white;
+        font-family: 'League Gothic', sans-serif;
+        
+        
+    }
+    .menuResponsive span:hover{
+        text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+    }
+    .nav__boxResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menuResponsive a{
+        text-decoration: none;
+        
+    }
+    .nav__boxLogoResponsive{
+        color: white;
+        margin: 10px;        
+    }
+    
+   
+}

@@ -1,7 +1,7 @@
 .home{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4, 9, 30, 0.6)),url(./Images/Home/sean-pollock-PhYq704ffdA-unsplash\ \(1\).jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.6),rgba(4, 9, 30, 0.6)),url('https://i.postimg.cc/x1ZScwcm/sean-pollock-Ph-Yq704ffd-A-unsplash-1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,9 +17,10 @@
     box-sizing: border-box;
 }
 .text-box h1{
-    color: white;
+    color: #ffdd00;
     font-size: 62px;
     margin-bottom: 1%;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
     
 }
 .text-box p{
@@ -48,8 +49,9 @@
 }
 
 .hero-btn:hover{
-    background: red;
-    border: 1px solid red;
+    background: #3b5998;
+    border: 1px solid #3b5998;
+    color: white;
 }
 
 .whatsapp__flotante{
